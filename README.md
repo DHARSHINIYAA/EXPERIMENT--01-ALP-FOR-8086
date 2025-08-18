@@ -1,4 +1,4 @@
-# Name :DHARSHINIYAA KS
+# Name :DHARSHINIYAA K S
 # Roll no: 212223100004
 Date of experiment : 18.08.2025
 # EXPERIMENT--01-ALP-FOR-8086
