@@ -97,6 +97,53 @@ ret
 ## Output  
 
 <img width="1235" height="805" alt="image" src="https://github.com/user-attachments/assets/698aadda-40ad-4e04-b3ed-96c3f28cd569" />
+## AND alp:
+```
+org 100h
+
+mov al,34h
+mov bl,2ah
+and bl,al
+hlt
+```
+
+## Output:
+<img width="1228" height="758" alt="Screenshot 2025-08-18 143225" src="https://github.com/user-attachments/assets/ccf3d1a7-2e82-40ea-8209-59b7c884bce3" />
+
+## OR alp:
+```
+org 100h
+
+mov al,34h
+mov bl,2ah
+or bl,al
+hlt
+```
+## Output:
+<img width="1265" height="802" alt="Screenshot 2025-08-18 144543" src="https://github.com/user-attachments/assets/cbe9a861-135d-405f-b6fe-667e51031de7" />
+
+## X-OR alp:
+```
+org 100h
+
+mov al,34h
+mov bl,2ah
+xor bl,al
+hlt
+```
+## Output:
+<img width="1230" height="783" alt="Screenshot 2025-08-18 144724" src="https://github.com/user-attachments/assets/3f7e7de3-3661-4c92-ab8a-aad360e3065d" />
+
+## NOT alp:
+```
+org 100h
+
+mov al,34h
+not al
+hlt
+```
+## Output:
+<img width="1261" height="806" alt="image" src="https://github.com/user-attachments/assets/0d1e701c-a313-461c-a94f-64be58dc6c64" />
 
 ## Result :
  
