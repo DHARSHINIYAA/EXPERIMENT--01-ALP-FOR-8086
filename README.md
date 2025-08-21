@@ -1,6 +1,6 @@
 # Name :DHARSHINIYAA K S
 # Roll no: 212223100004
-Date of experiment : 18.08.2025
+Date of experiment : 21.08.2025
 # EXPERIMENT--01-ALP-FOR-8086
 
 # Aim: To Write and execute ALP on fundamental arithmetic and logical operations
@@ -45,13 +45,13 @@ org 100h
 
 mov ax,5a23h
 mov bx,2cdbh
-add ax,bx
+add ax,[bx]
 ret
 ```
 
 # Output:
 
- <img width="1257" height="794" alt="Screenshot 2025-08-18 140625" src="https://github.com/user-attachments/assets/41e61d33-677b-4629-b73c-9c6be5f6dc43" />
+ <img width="1270" height="900" alt="image" src="https://github.com/user-attachments/assets/2a84d804-ad1e-4a88-b2b2-96aaa484a619" />
 
 # Subtraction   of 8 bit numbers  ALP :
 
@@ -104,55 +104,59 @@ ret
 ```
 org 100h
 
-mov al,34h
-mov bl,2ah
-and bl,al
+mov ax,5a23h
+mov bx,2cdbh 
+and ax,bx
 hlt
 ```
 
 # Output:
-<img width="1228" height="758" alt="Screenshot 2025-08-18 143225" src="https://github.com/user-attachments/assets/ccf3d1a7-2e82-40ea-8209-59b7c884bce3" />
+<img width="1244" height="889" alt="Screenshot 2025-08-21 132251" src="https://github.com/user-attachments/assets/3e2eb1d9-d1f4-4933-88bc-8aaccf223c00" />
+
 
 # OR alp:
 
 ```
 org 100h
 
-mov al,34h
-mov bl,2ah
-or bl,al
+mov ax,5a23h
+mov bx,2cdbh 
+or ax,bx
 hlt
 ```
 
 # Output:
-<img width="1265" height="802" alt="Screenshot 2025-08-18 144543" src="https://github.com/user-attachments/assets/cbe9a861-135d-405f-b6fe-667e51031de7" />
+
+<img width="1236" height="888" alt="Screenshot 2025-08-21 132759" src="https://github.com/user-attachments/assets/68e89adf-62ee-4228-a6ad-a7bfcafbaeab" />
 
 # X-OR alp:
 
 ```
 org 100h
 
-mov al,34h
-mov bl,2ah
-xor bl,al
+mov ax,5a23h
+mov bx,2cdbh 
+xor ax,bx
 hlt
 ```
 
 # Output:
-<img width="1230" height="783" alt="Screenshot 2025-08-18 144724" src="https://github.com/user-attachments/assets/3f7e7de3-3661-4c92-ab8a-aad360e3065d" />
+
+<img width="1232" height="889" alt="Screenshot 2025-08-21 132855" src="https://github.com/user-attachments/assets/884c2d02-323e-4e24-a461-10323ecc0d3a" />
 
 # NOT alp:
 
 ```
 org 100h
 
-mov al,34h
-not al
+mov ax,5a23h
+not ax,bx
 hlt
 ```
 
 # Output:
-<img width="1261" height="806" alt="image" src="https://github.com/user-attachments/assets/0d1e701c-a313-461c-a94f-64be58dc6c64" />
+<img width="1206" height="897" alt="Screenshot 2025-08-21 132703" src="https://github.com/user-attachments/assets/c2673c7f-3fd4-40a0-bd25-1f8472b76d71" />
+
 
 
 # Result :
