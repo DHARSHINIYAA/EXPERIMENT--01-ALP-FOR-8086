@@ -56,17 +56,21 @@ ret
 # Subtraction   ALP :
 
 ```
-org 100h
+org 100h 
 
-mov ax,5a23h
-mov bx,2cdbh 
-sub ax,bx
+org 100h
+mov bx,5a23h
+mov ax,[5a23h]
+sub  ax,bx
+
+
 ret
 ```
 
 # Output:
 
-<img width="1243" height="782" alt="Screenshot 2025-08-18 140543" src="https://github.com/user-attachments/assets/be562a9e-2bc2-4b12-9fcc-0f12c4787a1d" />
+<img width="1205" height="902" alt="image" src="https://github.com/user-attachments/assets/776b2186-9883-445c-bd7a-ce3543a01d94" />
+
 
 
 # Multiplication alp:
